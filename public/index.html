@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+ <link rel="stylesheet" href="index.css">
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+     <!-- App favicon -->
+     <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+     <!-- Daterangepicker css -->
+     <link rel="stylesheet" href="assets/vendor/daterangepicker/daterangepicker.css">
+
+     <!-- Vector Map css -->
+     <link rel="stylesheet" href="assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css">
+
+     <!-- Theme Config Js -->
+     <script src="assets/js/hyper-config.js"></script>
+
+     <!-- App css -->
+     <link href="assets/css/app-saas.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+     <!-- Icons css -->
+     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,20 +46,95 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+     <title> Ankit Personal Webpage</title> 
+     <link rel="icon" href="primecoder.png">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="fullscreen-button" type="button" style="position: fixed; top: 95vh;left: 1%;z-index: 9999999999999999999999999;"> Full
+      screen </div>
+  <style>
+      #fullscreen-button {
+
+          color: rgb(0, 0, 0);
+          border-radius: 5em;
+          background-color: orangered;
+          border: none;
+          filter: drop-shadow(0 0 0.5em rgb(255, 60, 0));
+           position: absolute;
+            
+      }
+    
+  </style>
+   
+    <!-- <script>
+      // Add an event listener to the window.onbeforeunload event
+      window.onbeforeunload = function(event) {
+          // Customize the confirmation message
+          var confirmationMessage = 'Are you sure you want to leave this page?';
+
+          // Set the confirmation message
+          (event || window.event).returnValue = confirmationMessage;
+
+          // Return the confirmation message (for older browsers)
+          return confirmationMessage;
+      };
+  </script>   -->
+
+
+ 
+
+  <script>
+      const fullscreenButton = document.getElementById("fullscreen-button");
+
+      fullscreenButton.addEventListener("click", function () {
+          if (document.documentElement.requestFullscreen) {
+              if (document.fullscreenElement) {
+                  document.exitFullscreen();
+              } else {
+                  document.documentElement.requestFullscreen();
+              }
+          } else if (document.documentElement.mozRequestFullScreen) { // Firefox
+              if (document.mozFullScreenElement) {
+                  document.mozCancelFullScreen();
+              } else {
+                  document.documentElement.mozRequestFullScreen();
+              }
+          } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+              if (document.webkitFullscreenElement) {
+                  document.webkitExitFullscreen();
+              } else {
+                  document.documentElement.webkitRequestFullscreen();
+              }
+          } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+              if (document.msFullscreenElement) {
+                  document.msExitFullscreen();
+              } else {
+                  document.documentElement.msRequestFullscreen();
+              }
+          }
+      });
+  </script>
+      
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+     
   </body>
 </html>
+<script src="assets/js/vendor.min.js"></script>
+
+        <!-- Daterangepicker js -->
+        <script src="assets/vendor/daterangepicker/moment.min.js"></script>
+        <script src="assets/vendor/daterangepicker/daterangepicker.js"></script>
+        
+        <!-- Apex Charts js -->
+        <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+
+        <!-- Vector Map js -->
+        <script src="assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+        <script src="assets/vendor/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
+
+        <!-- Dashboard App js -->
+        <script src="assets/js/pages/demo.dashboard.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>

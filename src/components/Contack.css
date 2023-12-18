@@ -1,0 +1,68 @@
+/* Contact.css */
+
+.contact-container {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.container py-5 {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border: 1px solid blue;
+
+}
+
+.contact-container h2 {
+    color: #007bff;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.container py-5.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+.container py-5.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.contact-container label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-container input,
+.contact-container textarea {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Add more custom styles as needed */
+.commentbar-1{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    border: 2px solid grey;
+     width: 700px;
+    overflow: auto;
+}
+
+ 
+.commentbar-1 li{
+    background-color: rgb(228, 226, 226);
+    border-bottom: 0.5px solid lightgray;
+}
+
