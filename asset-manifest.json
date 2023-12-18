@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c530fe5.css",
-    "main.js": "/static/js/main.4652b2a8.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/primecoder.png": "/static/media/primecoder.c8e5eafde809f3263989.png",
-    "static/media/nodejs.jpg": "/static/media/nodejs.66a8aacf9ee1a2c76177.jpg",
-    "static/media/python.jpg": "/static/media/python.b64833c2b667dcba3f32.jpg",
-    "static/media/html.jpg": "/static/media/html.08149f18aa2d7cd1a5a3.jpg",
-    "static/media/preloder.gif": "/static/media/preloder.8029d180b2ab15cbccb7.gif",
-    "static/media/engineer-vector.jpg": "/static/media/engineer-vector.373720e96f7bef91d8c2.jpg",
-    "index.html": "/index.html",
-    "main.8c530fe5.css.map": "/static/css/main.8c530fe5.css.map",
-    "main.4652b2a8.js.map": "/static/js/main.4652b2a8.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/https;//ankitmondal2009.github.io/soyel/static/css/main.8c530fe5.css",
+    "main.js": "/https;//ankitmondal2009.github.io/soyel/static/js/main.36ab16ab.js",
+    "static/js/787.28cb0dcd.chunk.js": "/https;//ankitmondal2009.github.io/soyel/static/js/787.28cb0dcd.chunk.js",
+    "static/media/primecoder.png": "/https;//ankitmondal2009.github.io/soyel/static/media/primecoder.c8e5eafde809f3263989.png",
+    "static/media/nodejs.jpg": "/https;//ankitmondal2009.github.io/soyel/static/media/nodejs.66a8aacf9ee1a2c76177.jpg",
+    "static/media/python.jpg": "/https;//ankitmondal2009.github.io/soyel/static/media/python.b64833c2b667dcba3f32.jpg",
+    "static/media/html.jpg": "/https;//ankitmondal2009.github.io/soyel/static/media/html.08149f18aa2d7cd1a5a3.jpg",
+    "static/media/preloder.gif": "/https;//ankitmondal2009.github.io/soyel/static/media/preloder.8029d180b2ab15cbccb7.gif",
+    "static/media/engineer-vector.jpg": "/https;//ankitmondal2009.github.io/soyel/static/media/engineer-vector.373720e96f7bef91d8c2.jpg",
+    "index.html": "/https;//ankitmondal2009.github.io/soyel/index.html",
+    "main.8c530fe5.css.map": "/https;//ankitmondal2009.github.io/soyel/static/css/main.8c530fe5.css.map",
+    "main.36ab16ab.js.map": "/https;//ankitmondal2009.github.io/soyel/static/js/main.36ab16ab.js.map",
+    "787.28cb0dcd.chunk.js.map": "/https;//ankitmondal2009.github.io/soyel/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c530fe5.css",
-    "static/js/main.4652b2a8.js"
+    "static/js/main.36ab16ab.js"
   ]
 }
