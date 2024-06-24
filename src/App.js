@@ -1,6 +1,6 @@
  
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
@@ -24,7 +24,7 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <HashRouter>
      
       {showNavbarFooter && <Navbar
         logo={primecoder}
@@ -59,7 +59,7 @@ function App() {
         addComment={addComment} // Pass addComment function as prop
       />}
        
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
